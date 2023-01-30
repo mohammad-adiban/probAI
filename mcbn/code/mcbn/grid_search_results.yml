@@ -1,0 +1,108 @@
+bostonHousing:
+  BN:
+    batch_size: 32
+    cv_epoch: 420
+    cv_rmse: 2.9401966108195214
+    lambda: 0.01
+    path: evaluations/hyperparameters/2021-06-29_1153_1/bostonHousing/BN/test_1/BN
+  DO:
+    batch_size: 32
+    cv_epoch: 200
+    cv_rmse: 3.162845004344609
+    dropout: 0.005
+    lambda: 0.001
+    path: evaluations/hyperparameters/2021-06-29_1153_1/bostonHousing/DO/test_62/DO
+  MCBN:
+    batch_size: 32
+    cv_epoch: 420
+    cv_rmse: 2.9163334346299026
+    lambda: 0.01
+    path: evaluations/hyperparameters/2021-06-29_1153_1/bostonHousing/BN/test_1/MCBN
+  MCDO:
+    batch_size: 32
+    cv_epoch: 200
+    cv_rmse: 3.1580857720917463
+    dropout: 0.005
+    lambda: 0.001
+    path: evaluations/hyperparameters/2021-06-29_1153_1/bostonHousing/DO/test_62/MCDO
+concrete:
+  BN:
+    batch_size: 128
+    cv_epoch: 760
+    cv_rmse: 4.607273237778117
+    lambda: 0.01
+    path: evaluations/hyperparameters/2021-06-28_1537/concrete/BN/test_31/BN
+  DO:
+    batch_size: 32
+    cv_epoch: 400
+    cv_rmse: 4.689941336388458
+    dropout: 0.005
+    lambda: 1.0e-05
+    path: evaluations/hyperparameters/2021-06-28_1537/concrete/DO/test_64/DO
+  MCBN:
+    batch_size: 64
+    cv_epoch: 980
+    cv_rmse: 4.572909597877175
+    lambda: 0.0001
+    path: evaluations/hyperparameters/2021-06-28_1537/concrete/BN/test_18/MCBN
+  MCDO:
+    batch_size: 32
+    cv_epoch: 400
+    cv_rmse: 4.675078002707479
+    dropout: 0.005
+    lambda: 1.0e-05
+    path: evaluations/hyperparameters/2021-06-28_1537/concrete/DO/test_64/MCDO
+energy:
+  BN:
+    batch_size: 512
+    cv_epoch: 1960
+    cv_rmse: 0.4335216459566735
+    lambda: 0.01
+    path: evaluations/hyperparameters/2021-06-28_1537/energy/BN/test_61/BN
+  DO:
+    batch_size: 32
+    cv_epoch: 680
+    cv_rmse: 0.4376821827047814
+    dropout: 0.001
+    lambda: 1.0e-07
+    path: evaluations/hyperparameters/2021-06-28_1537/energy/DO/test_81/DO
+  MCBN:
+    batch_size: 512
+    cv_epoch: 1960
+    cv_rmse: 0.4335216946517867
+    lambda: 0.01
+    path: evaluations/hyperparameters/2021-06-28_1537/energy/BN/test_61/MCBN
+  MCDO:
+    batch_size: 32
+    cv_epoch: 1920
+    cv_rmse: 0.4339796766958518
+    dropout: 0.01
+    lambda: 1.0000000000000001e-11
+    path: evaluations/hyperparameters/2021-06-28_1537/energy/DO/test_55/MCDO
+yacht:
+  BN:
+    batch_size: 32
+    cv_epoch: 1020
+    cv_rmse: 1.079693177983485
+    lambda: 0.1
+    path: evaluations/hyperparameters/2021-07-09_1403/yacht/BN/test_0/BN
+  DO:
+    batch_size: 32
+    cv_epoch: 1280
+    cv_rmse: 0.6949357309992227
+    dropout: 0.001
+    lambda: 0.001
+    path: evaluations/hyperparameters/2021-07-09_1403/yacht/DO/test_77/DO
+  MCBN:
+    batch_size: 64
+    cv_epoch: 1160
+    cv_rmse: 1.0739010503927149
+    lambda: 0.1
+    path: evaluations/hyperparameters/2021-07-09_1403/yacht/BN/test_15/MCBN
+  MCDO:
+    batch_size: 32
+    cv_epoch: 1280
+    cv_rmse: 0.6907459977199129
+    dropout: 0.001
+    lambda: 0.001
+    path: evaluations/hyperparameters/2021-07-09_1403/yacht/DO/test_77/MCDO
