@@ -416,9 +416,6 @@ results_df.to_csv(all_results_path)
 print("DONE STEP 2")
 
 
-# In[ ]:
-
-
 logger = get_logger()
 
 #logger.info("STEP 3: Getting best hyperparameter choices")
@@ -506,9 +503,6 @@ for i, row in best_results_df.iterrows():
 dump_yaml(best_results_dict, os.getcwd(), 'grid_search_results.yml')
 #logger.info("DONE STEP 3")
 print("DONE STEP 3")
-
-
-# In[ ]:
 
 
 logger = get_logger()
@@ -750,8 +744,6 @@ for dataset_name, models_dict in g.items():
 print("DONE STEP 4")
 
 
-# In[ ]:
-
 
 logger = get_logger()
 
@@ -804,8 +796,6 @@ dump_yaml(results, os.getcwd(), 'tau_results.yml')
 #logger.info("DONE STEP 5")
 print("DONE STEP 5")
 
-
-# In[ ]:
 
 
 logger = get_logger()
@@ -1090,9 +1080,6 @@ for dataset_name in t.keys():
     
 #logger.info("DONE STEP 6")
 print("DONE STEP 6")
-
-
-# In[ ]:
 
 
 s = get_setup()
